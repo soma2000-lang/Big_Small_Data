@@ -2,8 +2,7 @@
 
 MinHash	estimate Jaccard similarity and cardinality
 Weighted MinHash	estimate weighted Jaccard similarity
-HyperLogLog	estimate cardinality
-HyperLogLog++	estimate cardinality
+
 
 
 
