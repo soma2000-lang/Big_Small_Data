@@ -3,10 +3,10 @@ import struct
 from typing import Dict, Generator, Hashable, Iterable, Optional, Tuple
 
 import numpy as np
-from datasketch.minhash import MinHash
-from datasketch.storage import _random_name
-from datasketch.lsh import integrate, MinHashLSH
-from datasketch.lshensemble_partition import optimal_partitions
+from Big_Small_Data.minhash import MinHash
+from Big_Small_Data.storage import _random_name
+from Big_Small_Data.lsh import integrate, MinHashLSH
+from Big_Small_Data.lshensemble_partition import optimal_partitions
 
 
 def _false_positive_probability(threshold, b, r, xq):
