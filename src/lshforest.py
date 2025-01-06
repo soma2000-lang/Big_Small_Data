@@ -2,7 +2,7 @@ from collections import defaultdict
 from typing import Hashable, List
 import numpy as np
 
-from datasketch.minhash import MinHash
+from  Big_Small_Data.minhash import MinHash
 
 
 class MinHashLSHForest(object):
