@@ -2,9 +2,9 @@ from __future__ import annotations
 import pickle
 import struct
 from typing import Callable, Dict, Hashable, List, Optional, Tuple, Union
-from datasketch.minhash import MinHash
-from datasketch.weighted_minhash import WeightedMinHash
-from datasketch.storage import ordered_storage, unordered_storage, _random_name
+from Big_Small_Data.minhash import MinHash
+from Big_Small_Data.weighted_minhash import WeightedMinHash
+from Big_Small_Data.storage import ordered_storage, unordered_storage, _random_name
 
 from scipy.integrate import quad as integrate
 
